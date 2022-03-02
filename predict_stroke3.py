@@ -119,6 +119,10 @@ ran_for.fit(X_train, y_train)
 # le_maladie_cardiaque = data["le_maladie_cardiaque"]
 # le_status_fumeur = data["le_status_fumeur"]
 
+primaryColor = '#383f46'
+backgroundColor = '#ffffff'
+secondaryBackgroundColor = '#a090de'
+
 st.title("MED x IA : Diagnostique rapide d'accident vasculaire cérébral")
 st.write("""### Veuillez saisir des informations sur le patient : """)
 
