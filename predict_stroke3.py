@@ -119,7 +119,6 @@ ran_for.fit(X_train, y_train)
 # le_maladie_cardiaque = data["le_maladie_cardiaque"]
 # le_status_fumeur = data["le_status_fumeur"]
 
-[theme]
 primaryColor = '#383f46'
 backgroundColor = '#ffffff'
 secondaryBackgroundColor = '#a090de'
