@@ -113,11 +113,11 @@ y_train = under_sample.loc[:, df.columns==target]
 ran_for = RandomForestClassifier(n_estimators=2500, random_state = 200)
 ran_for.fit(X_train, y_train)
 
-ran_for = data["model"]
-le_Genre = data["le_Genre"]
-le_Hypertension = data["le_Hypertension"]
-le_maladie_cardiaque = data["le_maladie_cardiaque"]
-le_status_fumeur = data["le_status_fumeur"]
+# ran_for = data["model"]
+# le_Genre = data["le_Genre"]
+# le_Hypertension = data["le_Hypertension"]
+# le_maladie_cardiaque = data["le_maladie_cardiaque"]
+# le_status_fumeur = data["le_status_fumeur"]
 
 st.title("MED x IA : Diagnostique rapide d'accident vasculaire cérébral")
 st.write("""### Veuillez saisir des informations sur le patient : """)
