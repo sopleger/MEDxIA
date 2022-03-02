@@ -120,7 +120,7 @@ ran_for.fit(X_train, y_train)
 # le_status_fumeur = data["le_status_fumeur"]
 
 from PIL import Image
-img = Image.open("Logo.jpg")
+img = Image.open("Logo 2.jpg")
 st.image(img)
 
 st.title("MED x IA : Diagnostique rapide d'accident vasculaire cérébral")
