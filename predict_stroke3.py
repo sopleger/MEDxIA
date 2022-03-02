@@ -123,7 +123,6 @@ from PIL import Image
 img = Image.open("Logo 2.jpg")
 st.image(img)
 
-st.title("Quand la MÉDecine rencontre l'Intelligence Artificielle")
 st.title("Diagnostic rapide d'accident vasculaire cérébral")
 st.write("""### Veuillez saisir des informations sur le patient : """)
 
