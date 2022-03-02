@@ -22,7 +22,6 @@ from pylab import rcParams
 from sklearn.metrics import precision_score, recall_score
 from sklearn.metrics import f1_score, roc_auc_score, roc_curve
 from matplotlib import pyplot as plt
-%matplotlib inline
 
 rcParams["figure.figsize"] = 10, 6
 warnings.filterwarnings("ignore")
