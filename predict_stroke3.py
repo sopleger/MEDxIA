@@ -121,7 +121,7 @@ ran_for.fit(X_train, y_train)
 
 from PIL import Image
 img = Image.open("Logo.jpg")
-Logo.image(img)
+st.image(img)
 
 st.title("MED x IA : Diagnostique rapide d'accident vasculaire cérébral")
 st.write("""### Veuillez saisir des informations sur le patient : """)
