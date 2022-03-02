@@ -10,6 +10,7 @@ import pickle
 import streamlit as st
 import pickle
 
+import sklearn
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split 
 from sklearn.metrics import accuracy_score
