@@ -141,7 +141,7 @@ Hypertension = st.selectbox("Est-ce que le patient fait de l'hypertension?", Hyp
 maladie_cardiaque = ("Non", "Oui")
 maladie_cardiaque = st.selectbox("Est-ce que le patient a une maladie cardiaque?", maladie_cardiaque)
 
-moy_taux_glucose = st.slider("Moyenne du taux de glucose", 40, 300, 105)
+moy_taux_glucose = st.slider("Moyenne du taux de glucose", 40, 200, 105)
 
 indice_masse_corporelle = st.slider("Indice de masse corporelle", 0, 80, 20)
 
