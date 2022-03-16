@@ -143,7 +143,7 @@ maladie_cardiaque = st.selectbox("Est-ce que le patient a une maladie cardiaque?
 
 moy_taux_glucose = st.slider("Moyenne du taux de glucose", 40, 200, 100)
 
-indice_masse_corporelle = st.slider("Indice de masse corporelle", 7, 40, 20)
+indice_masse_corporelle = st.slider("Indice de masse corporelle", 5, 40, 20)
 
 status_fumeur = (
     "Je ne sais pas",
